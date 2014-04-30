@@ -362,4 +362,8 @@
     <!-- AOSP-CAF Version -->
     <string name="version_title">CAF Version</string>
     <string name="version_default">Unknown</string>
+
+    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+
 </resources>
