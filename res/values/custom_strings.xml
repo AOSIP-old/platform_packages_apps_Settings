@@ -48,6 +48,11 @@
     <string name="aosip_about_mention4_summary">Pizza lover/Local Derper</string>
     <string name="aosip_about_mention5_title">Sri Harsha (srisurya95)</string>
     <string name="aosip_about_mention5_summary">Caf-Dev and Kenzo Maintainer</string>
+	
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 
     <!-- About phone screen, AOSiP device maintainer name -->
     <string name="device_maintainer">Device maintainer</string>
