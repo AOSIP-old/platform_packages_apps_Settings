@@ -130,8 +130,14 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
 
     public void setCategoriesAndSuggestions(List<DashboardCategory> categories,
             List<Tile> suggestions) {
-        mSuggestions = suggestions;
-        recountItems();
+        if ((Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.DISABLE_SUGGESTIONS, 1) == 1)) {
+             mSuggestions = suggestions;
+             recountItems();
+        } else {
+             mSuggestions = null;
+             recountItems();
+        }
     }
 
     public Tile getTile(ComponentName component) {
@@ -186,15 +192,6 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
     }
 
     public void setCategories(List<DashboardCategory> categories) {
-        if ((Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.DISABLE_SUGGESTIONS, 1) == 1)) {
-             mSuggestions = suggestions;
-             recountItems();
-        } else {
-             mSuggestions = null;
-             recountItems();
-        }
-
         mCategories = categories;
 
         TypedValue tintColorValue = new TypedValue();
