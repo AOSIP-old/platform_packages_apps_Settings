@@ -106,6 +106,12 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
+        <com.aosip.owlsnest.preference.GlobalSettingSwitchPreference
+                android:key="wake_when_plugged_or_unplugged"
+                android:title="@string/wake_when_plugged_or_unplugged_title"
+                android:summary="@string/wake_when_plugged_or_unplugged_summary"
+                android:defaultValue="true" />
+
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"
