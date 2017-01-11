@@ -368,5 +368,6 @@
 
     <!-- sRGB -->
     <string name="srgb_title">sRGB mode</string>
+    <string name="srgb_summary">Enable sRGB display calibration</string>
 
 </resources>
