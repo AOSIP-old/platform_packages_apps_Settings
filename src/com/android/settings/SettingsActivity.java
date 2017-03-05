@@ -148,6 +148,7 @@ import com.aosip.owlsnest.navigation.FlingSettings;
 import com.aosip.owlsnest.navigation.NavbarSettings;
 import com.aosip.owlsnest.navigation.SmartbarSettings;
 import com.aosip.owlsnest.navigation.PulseSettings;
+import com.aosip.owlsnest.qssettings.TileCategory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -409,6 +410,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             SubstratumLaunch.class.getName(),
             DisplayRotation.class.getName(),
             RunningServices.class.getName(),
+            TileCategory.class.getName()
     };
 
 
