@@ -129,6 +129,13 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true" />
 
+        <!-- AOSP-CAF Version  -->
+        <Preference android:key="caf_version"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:title="@string/version_title"
+                android:summary="@string/version_default"/>
+
         <!-- Security patch level -->
         <PreferenceScreen android:key="security_patch"
                 android:title="@string/security_patch"
