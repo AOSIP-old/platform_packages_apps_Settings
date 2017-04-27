@@ -178,7 +178,6 @@ public class Settings extends SettingsActivity {
     public static class DisplayRotationActivity extends SettingsActivity { /* empty */ }
     public static class OwlsNestActivity extends SettingsActivity { /* empty */ }
     public static class MagiskActivity extends SettingsActivity { /* empty */ }
-    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class SuperUserActivity extends SettingsActivity { /* empty */ }
     public static class TileCategorySettingsActivity extends SettingsActivity { /* empty */ }
 }
